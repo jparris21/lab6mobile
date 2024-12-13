@@ -1,0 +1,111 @@
+.background {
+    background: linear-gradient(135deg, #d9e8f5, #b3cde0, #e3effa);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav > li > a {
+    color: #333 !important;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-nav > li > a:hover {
+    color: #007BFF !important;
+}
+.HEADER{
+    text-align: center;
+    padding-left: 250px;
+}
+
+/* Bio Section Styling */
+.bio {
+    margin-top: 125px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bio h1 {
+    font-size: 2.5em;
+    color: #007BFF;
+}
+
+.bio h2 {
+    font-size: 2em;
+    color: #555;
+}
+
+.bio h3 {
+    font-size: 1.5em;
+    color: #999;
+}
+
+/* Card and List Styling */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+/* Full-page contact section */
+#contact {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f9; /* Light background */
+    color: #333; /* Text color */
+    padding: 2em; /* Increased padding for spacing */
+    box-sizing: border-box;
+}
+
+/* Heading styles */
+#contact h2 {
+    font-size: 4rem; /* Bigger heading */
+    margin-bottom: 1em;
+    color: #007BFF; /* Accent color */
+}
+
+/* Paragraph styles */
+#contact p {
+    font-size: 1.8rem; /* Bigger paragraph text */
+    margin: 1em 0;
+}
+
+/* Links styling */
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.8rem; /* Larger font for links */
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
